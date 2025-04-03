@@ -1,0 +1,23 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+# download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+path: D:/CViG_new
+train: ../train.txt  # 118287 images
+val: ../val.txt  # 5000 images
+test: ../test.txt
+# test: ../datasets/wheat/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 20
+
+# class names
+names: ['beaker','graduated_cylinder','simple_vial','label','glass_reagent_bottle','erlenmeyer_flask',
+        'round_bottom_flask','funnel','wash_bottle','TLC_chamber','tube','plastic_reagent_bottle','barrel_funnel',
+        'measuring_cup', 'pipette', 'triangular_funnel', 'volumetric_flasks', 'condenser_tubes', 'desiccator', 'burette']
+
+
+
+
